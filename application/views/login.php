@@ -23,7 +23,7 @@
 
     ?>
       <div class="panel panel-default">
-           <div class="panel-heading">Register</div>
+           <div class="panel-heading">Login</div>
            <div class="panel-body">
              
 
@@ -32,7 +32,7 @@
             {
                 echo '
                 <div class="alert alert-success">
-                '.$this->session->flasdata("message").'
+                '.$this->session->flashdata("message").'
                 </div>';
             }
             ?>
