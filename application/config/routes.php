@@ -57,3 +57,7 @@ $route["Register/index"] = 'Register/index';
 $route["Register/validation"] = 'Register/validation';
 $route["Login/index"] = 'Login/index';
 $route["Login/validation"] = 'Login/validation';
+$route["Private_area/index"] = 'Private_area/index';
+
+$route["admin"]="admin/index";
+$route["admin/logout"]="admin/logout";

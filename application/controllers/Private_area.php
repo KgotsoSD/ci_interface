@@ -10,6 +10,14 @@ class Private_area extends CI_Controller{
         {
             redirect('login');
 
+          
+
+        }
+      }
+
+        public function index()
+        {
+          $this->load->view('private_area');
         }
         function logout()
         {
@@ -22,7 +30,7 @@ class Private_area extends CI_Controller{
           redirect('login');
 
         }
-      }
+      
 }
 
 
