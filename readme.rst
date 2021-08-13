@@ -68,3 +68,10 @@ Acknowledgement
 
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+
+
+
+loginProject
+*************
+This project is about creating an interface for a database that has already been created. The database must be connected to the interface. it must store information about a user, when they login, logout and it must contain different user roles (admin/user). each role has specific permissions(such as accessing user lists, create user,edit user,delete user ). 
