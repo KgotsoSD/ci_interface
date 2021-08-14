@@ -10,7 +10,7 @@ class Admin extends CI_Controller
           $this->load->library('form_validation');
           $this->load->library('encryption');
           $this->load->model('admin_model');
-          $this->load->database();
+         // $this->load->database();
 
       }
 
@@ -24,7 +24,7 @@ class Admin extends CI_Controller
            $email=$this->input->post('user_email');
            $password=md5($this->input->post('password'));
 
-           $result = $this->db->get_where('codeiniter_register',array('user_email'=>$email, 'password'=>$password,'account_status'=>1, 'role'=>'Admin'))->result_array();
+           $result = $this->db->get_where('admin',array('user_email'=>$email, 'password'=>$password,'account_status'=>1, 'role'=>'Admin'))->result_array();
            $uid =$result[0]['id'];
            $user_name=$result[0]['user_name'];
            $password=$reslut[0]['password'];
