@@ -37,6 +37,14 @@
             }
             ?>
              <form method="post" action="<?php echo base_url();?>login/validation">
+
+
+
+
+
+
+
+             
              <div class="form-group">
                        <label>Enter Your Valid Email Address</label>
                        <input type="text" name="user_email" class="form-control" value="<?php echo set_value('user_email'); ?>" />
